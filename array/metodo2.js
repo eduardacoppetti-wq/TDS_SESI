@@ -1,0 +1,10 @@
+const numeros = [1, 2, 3, 4, 5, 8];
+
+// Desafio: remover o ultimo elemento
+// 2 minutos para realizar
+
+numeros.pop();
+console.log(numero);
+
+numeros.splice(1, 2); // Remove o indice informado
+console.log(numeros);

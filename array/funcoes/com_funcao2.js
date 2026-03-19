@@ -1,0 +1,13 @@
+const produt1 = "Notebook";
+const preco1 = 3500;
+
+const produto2 = "mouse";
+const preco2 = 150;
+
+function exibirProduto(produto, preco) {
+    console.log(` ${produto} - ${preco}`);
+}
+
+//Como imprimir os dois produtos com seus precos?
+exibirProduto(produto1, preco1);
+exibirProduto(produto2, preco2);
