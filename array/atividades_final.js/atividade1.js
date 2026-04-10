@@ -20,4 +20,22 @@ const clienteIdade = {
 }
 console.log
 
+function processarVenda(valorTotal, possuiCupom){
+    letvalorFinal = valorTotal > 500 && possuiCumpom == true ? valorTotal = (valorTotal - (valorTotal * 0.15)) : valorTotal;
+
+    if (clienteIdade >= 16){
+        console.log(`Venda Autorizada para ${clienteNome}`);
+        for (let num = 1; num <= 5; num++){
+            estoque.splice();
+            console.log(`Despachando Item ${estoque[num]}...ok! `);
+        }
+    } else {
+        console.log(`Venda bloqueada: Idade Insuficiente`);
+}
+
+return valorFinal;
+
+}
+console.log(`Relatorio da loja: Cliente ${ClienteNome} processou um pedido de R$${processarVenda(valorTotal, possuiCupom)}.
+Itens restantes no estoque ${estoque.lenght}`);
 
